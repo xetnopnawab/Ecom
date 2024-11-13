@@ -1,0 +1,86 @@
+.grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-content h2,
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.card-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+button,
+.btn {
+  width: 130px;
+  height: 30px;
+  font: inherit;
+  border: 1px solid rgb(12, 90, 90);
+  border-radius: 3px;
+  color: rgb(12, 90, 90);
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px gray;
+  text-decoration: none;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button:hover,
+.btn:hover,
+button:active,
+.btn:active {
+  background-color: rgb(12, 90, 90);
+  color: white;
+  box-shadow: 1px 10px 5px gray;
+}
+/* .card-action a {
+  width: 130px;
+  height: 30px;
+  text-decoration: none;
+  font: inherit;
+  border: 1px solid rgb(12, 90, 90);
+  border-radius: 3px;
+  color: rgb(12, 90, 90);
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px gray;
+}
+.card-action a:hover,
+.card-action a:active {
+  background-color: rgb(12, 90, 90);
+  color: white;
+  box-shadow: 1px 10px 5px gray;
+} */
